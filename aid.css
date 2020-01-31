@@ -1,31 +1,18 @@
 body{
     overflow-x: hidden;
     overflow-y: scroll;
+    background-color: rgb(211, 211, 226);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
-.body{
+.bodyy{
     padding: 0;
     overflow-x: hidden;
     overflow-y: scroll;
 }
-nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;    
-}
-li a {
-    display: block;
-    width: 100%;
-    padding: 8px 16px;
-}
-li a:hover {
-    background-color: #555;
-    color: white;
-}
-nav li{
-    display: inline;
-}
+
   
 
 #heady{
@@ -146,8 +133,3 @@ h1.title {
     text-align: justify;
 }
 
-body{
-  background-color: rgb(211, 211, 226);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
