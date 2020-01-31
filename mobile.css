@@ -1,0 +1,183 @@
+body{
+    font-size: x-large;
+    background-color:white
+    /* color: white; */
+}
+
+#mission_vision{
+    color: red;
+    text-align: center;
+}
+
+
+.body{
+    font-family:Arial ;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    height:100vh;
+    width:100%;
+    background-image: url();
+    background-size: cover;
+}
+
+h2{
+    position: absolute;
+    left:50%;
+    top:10%;
+    transform:translate(-50%);
+    font-size:50px;
+    color:blue;
+    font-family:Comic Sans Ms;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+/*Button used to open the chat form fixed at the bottom of the page*/
+
+.open-button{
+    background-color:rgb(99, 221, 243);
+    color:rgba(0, 0, 0, 0.973);
+    padding:16px 20px;
+    border:none;
+    cursor:pointer;
+    opacity:0.8;
+    position:fixed;
+    bottom:23px;
+    right:28px;
+    width:170px;
+    border-radius: 12px;
+
+}
+/*The popup chat-hidden by default*/
+
+.chat-popup{
+    display:none;
+    position:fixed;
+    bottom:0;
+    right:15px;
+    background-color: rgb(12, 144, 161);
+    border:3px solid #f1f1f1;
+    z-index: 9;
+    width: 350px;
+    height: 500px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+/*Add styles to the form container*/
+
+.form-container{
+    max-width: 300px;
+    padding:10px;
+    background-color: white;
+}
+/*Full-width text area*/
+
+.form container textarea{
+    width:100%;
+    padding:15px;
+    margin:5px 0 22px 0;
+    border-radius: 14px;
+    /* border:none; */
+    background: #f1f1f1;
+    min-height: 200px;
+}
+/*Set a style for the submit/send button*/
+
+.form-container.btn{
+    background-color: #659dbd;
+    color:rgba(0,0,0,0.8);
+    padding:16px 20px;
+    border:none;
+    cursor:pointer;
+    width:100%;
+    margin-bottom: 10px;
+    opacity:0.8;
+}
+
+.form-container.cancel{
+    background-color: rgba(0,0,0,0.7);
+    color:rgba(255,255,255,0.8);
+}
+/*Add a background color to the cancel button*/
+
+.form-container.btn:hover, .open-button:hover{
+    opacity: 1;
+}
+.btnsend{
+    float: right;
+}
+#citizen_message{
+    width: 230px;
+    background-color: blue;
+    border-radius: 16px;
+}
+
+#police_reply{
+    float: right;
+    width: 230px;
+    clear: both;
+    background-color: darkgrey;
+    border-radius: 16px;
+}
+
+#citizen_conclude{
+    float: left;
+    clear: both;
+    border-radius: 19px;
+    background-color: blue;
+}
+#graph{
+    text-align: center;
+}
+#mtitle{
+    color: blanchedalmond;
+}
+/*
+#chase{
+float: inherit;;
+}
+#robbery{
+float:right;
+}
+#arrest{
+float:center;
+}
+#power{
+    float:right;
+}
+#crime{
+float:inline-start;
+}
+#duty{
+    float:right;
+}*/
+#one{
+    float: left;
+    width:30%;
+    margin-left: 2%;
+    font-size: medium;
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  #two{
+    float: left;
+    width:30%;
+    font-size: medium;
+    text-align: center;
+    margin-left: 2%;
+    color: whitesmoke;
+  }
+#paragraph{
+    color:olive;
+    font-size: x-large;
+}
+
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<title>Mobile Police</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="mobile.css">
+<style>
+  .mySlides {
+    display: none
+  }
+</style>
+
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="w3-content" style="max-width:80%">
+    <img class="mySlides" src="siren.gif" style="width:100%">
+    <img class="mySlides" src="police.jpg" style="width:100%">
+    <img class="mySlides" src="gallery.jpg" style="width:100%">
+    <img class="mySlides" src="getty.jpg" style="width:100%">
+    <img class="mySlides" src="phone.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-center">
+    <div class="w3-section">
+      <button class="button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+      <button class="button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+    </div>
+    <button class="button demo" onclick="currentDiv(1)">1</button>
+    <button class="button demo" onclick="currentDiv(2)">2</button>
+    <button class="button demo" onclick="currentDiv(3)">3</button>
+    <button class="button demo" onclick="currentDiv(3)">4</button>
+    <button class="button demo" onclick="currentDiv(3)">5</button>
+
+  </div>
+  <div>
+    <h3 id="mission_vision"> OUR VISION</h3>
+    <p id="graph">To create an enduring culture of safety, trust, and hope where all individuals and families in Mobile,<br>
+      are empowered to achieve optimal health,safety and well-being.</p>
+  </div>
+
+  <div>
+    <h3 id="mission_vision">OUR MISSION</h3>
+    <p id="graph">To foster a well-informed community through strong partnerships that facilitate<br>
+      Healing and Resiliency in the Wake of Violent Events.</p>
+  </div>
+  <div>
+    
+   <span id="one"><img src="plc.gif" width="500px">
+    <p id="paragraph">Police chasing a thief.</p></span> 
+
+    <span id="one"><img src="robbery.jpg" width="500px">
+    <p id="paragraph">Dealing with robbery.</p></span>
+
+    <span id="one"><img src="Penske-Truck-chase.jpg" width="500px">
+    <p id="paragraph">Arrest on speeding.</p></span>
+
+    <br>
+    <br>
+  
+    <span id="two"><img src="IMG.jpg" width="500px">
+    <p id="paragraph">Power restorement with the help of police.</p></span>
+
+    <span id="two"><img src="policiia.jpg" width="500px">
+    <p id="paragraph">Crime area,restricted.</p></span>
+
+    <span id="two"><img src="bob_policeman_animation.gif" width=500px> 
+    <p id="paragraph">Mobile policeman on duty.</p></span id="duty">
+
+  </div>
+  <section class="container">
+    <h2>Mobile Police</h2>
+    <button class="open-button" onclick="openform()" id="mchat">Chat</button>
+    <div class="chat-popup" id="myform">
+      <form action="" class="form container">
+        <h3 id="mtitle">Let's chat!</h3>
+        <div class="mpast">
+          <div id="citizen_message">
+            <h5>Someone just got killed at Githurai.</h5>
+          </div>
+          <br>
+          <div id="police_reply">
+            <h5>Thank you for reporting. Dispatching a team now.</h5>
+          </div>
+          <br>
+          <div id="citizen_conclude">
+            <h5>Thank you.</h5>
+          </div>
+          </div>
+          <br>
+          <br>
+          <br>
+         <textarea placeholder="Type Message here.." name="msg"></textarea>
+         <button type="button" class="btn cancel" onclick="closeform()">Close</button>
+         <button type="submit" class="btnsend">Send</button>
+      </form>
+    </div>
+  </section>
+
+</body><script src="index.js"></script>
+  
+
+</html>
