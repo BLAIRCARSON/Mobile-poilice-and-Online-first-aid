@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="aid.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Chatbox.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Online First Aid</title>
+</head>
+<body>
+        <div d="onlinefirstaid"> 
+        <div class="body">
+        <div id="heady">
+            <i class="material-icons">local_hospital</i>
+            ONLINE FIRST AID
+        </div>
+       <div class="patient">
+        <h3>Are you feeling sickish?</h3>
+        <p>Kindly tell us here</p>
+        <form id="form-user" action="#" method="post">
+            <div class="form-box error" data-errormsg="">
+                <label for="input-name">Name:</label>
+                <input type="text" id="input-name" autofocus placeholder="Name" tabindex="1"/>        
+            </div>
+            <br>
+            <div class="form-box" data-errormsg="">
+                <label for="input-gender">Gender:</label><br>
+                <input type="radio" name="gender" value="Male">Male<br>
+                <input type="radio" name="gender" value="Female">Female<br>
+            </div>
+            <br>
+        
+            <div class="form-box" data-errormsg="">
+                <label for="input-location">Location:</label>
+                <input type="text" id="input-location" autofocus placeholder="Location" tabindex=2/>        
+            </div>
+            <br>
+            <div class="form-box" data-errormsg="">
+                <label for="input-phone">Phone:</label>
+                <input type="text" id="input-phone" autofocus placeholder="Phone" tabindex="3"/>        
+            </div>
+            <br>
+            <div class="form-box" data-errormsg="">
+                <label for="input-age">Age:</label>
+                <select id="input-age" tabindex="4">
+                    <option value="0">Under 20</option>
+                    <option value="1">20-30</option>
+                    <option value="2">40-50</option>
+                    <option value="3">Over 50</option>
+                </select>  
+            </div>
+            <br>
+            <lebel for="message">Please give us a short description of how you are feeling*</lebel>
+            <br>
+            <textarea id="message"></textarea>
+            <br>
+            <br>
+            <div class="form-box" data-errormsg="">
+                <label for="input-filling">Filling for yourself?</Filling for yourself?>
+                <input type="checkbox" id="filling"  tabindex="5" checked/>        
+            </div>
+            <br>
+            <div class="form-box">
+                <button id="button-cancel">Cancel:</button>
+                <button id="button-send">Send</button>
+            </div>     
+            
+        </form>
+        <img src="covered.img" height="=120px" width=240px>
+        <p><em>"Save yourself today, report your problem to our online Doctors."</em></p>
+
+       </div>
+        
+        <div class="doctor">
+            <h2>Online Doctor:</h2>
+            <p>Based on your description our Doctor says do this as first aid;</p>
+            <div class="form-box error" data-errormsg="">
+                <label for="input-name">Name of Doctor:</label>
+                <input type="text" id="input-name" autofocus placeholder="ONLINE DOCTOR" tabindex="1"/>        
+            </div>
+            <br>
+            <br>
+            <div class="form-box" data-errormsg="">
+              <label for="input-phone">Phone Number:</label>
+              <input type="text" id="input-phone" autofocus placeholder="Phone Number" tabindex="3"/>        
+          </div>
+          <br>
+          <br>
+            <h3>Analysis and prescription given:</h3>
+            <lebel for="message">Doctor says you should do the followiing:-;</lebel>
+            <br>
+            <textarea id="message"></textarea>
+            <br>
+            <br>
+            <div>
+            <img src="onlinedoctor.jpg" height="450px" width="350px" alt="">
+            </div>
+            
+        </div>
+        <div id="instructions">
+            <p>What do you do when you are in a situation where you feel you are sick?</p>
+            <ul>
+                <li>Call anybody around you</li>
+                <li>Let them try getting instructions from our online first aid </li>
+                <li>If there is no one open our our online first aid and tell us what you feel</li>
+                <h2>Sample first aid..</h2>
+                <ul>
+                    <li>Pressing Chest when having breathing problems</li>
+                    <img src="aid.gif" height="295px" width="400px">
+                    <br>
+                    <li>Hurry with first aid kit</li>
+                    <img src="hurry.gif" height="295px" width="400px">
+                </ul>
+            </ul>
+        </div>
+        
+        </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <div id="feedback">
+      <h2>......BECOME PART OF US..</h2>
+      <div class="wrapper">
+        <div class="form">
+          <h1 class="title">Create an account </h1>
+    
+          <form action="#" class="myform">
+            <div class="control-from">
+              <label for="firstname">First Name *</label>
+              <input type="text" id="firstname" value="">
+            </div>
+    
+            <div class="control-from">
+              <label for="lastname">Last Name *</label>
+              <input type="text" id="lastname" value="" required="">
+            </div>
+    
+            <div class="control-from">
+              <label for="emailaddress">Email Address *</label>
+              <input type="text" id="emailaddress" value="" required="">
+            </div>
+    
+            <div class="control-from">
+              <label for="phonenumber">Phone Number</label>
+              <input type="phone" id="phonenumber" value=" " required="">
+            </div>
+    
+            <div class="full-width">
+              <label for="companyname">Company Name</label>
+              <input type="text" id="companyname" value="" required="">
+            </div>
+    
+            <div class="control-from">
+              <label for="businesscategory">Business Category</label>
+              <input type="text" id="businesscategory" value=" " required="">
+            </div>
+    
+            <div class="control-from">
+              <label for="location">Location </label>
+              <input type="text" id="location" value=" " required="">
+            </div>
+    
+            <div class="button">
+              <button id="register">Register</button>
+            </div>
+            </form>
+        </div>
+
+          </form>
+        </div>
+      </div>    
+        
+      <script src="js/main.js"></script>
+    </div>
+
+</body>
+</html>

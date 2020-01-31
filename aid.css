@@ -1,0 +1,153 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+.body{
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+li a {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+nav li{
+    display: inline;
+}
+  
+
+#heady{
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;   
+     
+}
+.patient{
+    float: left;
+    padding-left: 100px;
+    width: 270px;
+    background-color: gold;
+    height: 810px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.doctor{
+    float: right;
+    padding-right: 65px;
+}
+
+#instructions{
+padding-left: 400px;
+color: black;
+}
+
+
+
+.wrapper {
+  width: 700px;
+  background: #FFF;
+  border-radius:  10px;
+  box-shadow: 0 25px 70px rgba(0,0,0,.05);
+  overflow: hidden;
+  width: 1570px;
+
+}
+
+h1.title {
+  padding: 15px 0;
+  margin-left: 25px;
+  font-weight: normal;
+  color: rgba(57,50,173,1)
+}
+
+.form {
+  width: 700px;
+}
+
+.myform {
+  background: rgb(168, 166, 166);
+  width: 1490px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 55px
+}
+
+.myform label {
+  display: block;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.myform input {
+  border: 0;
+  outline: 0;
+  height: 50px;
+  background: #FFF;
+  width: 100%;
+  border-radius: 5px;
+  color: #155BDA;
+  font-weight: 700;
+  font-size: .9rem;
+  text-indent: 15px;
+  border: 2px solid transparent;
+  transition: border 250ms;
+}
+
+.full-width {
+  grid-column: -1 / 1
+}
+
+.button {
+  grid-column: -1 / 1;
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  border: 0;
+  outline: 0;
+  width: 220px;
+  height: 50px;
+  border-radius: 50px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: .9rem;
+  cursor: pointer;
+  background: linear-gradient(356deg, rgba(57,50,173,1) 0%, rgba(87,50,173,1) 100%);
+}
+
+.button button:hover {
+  background: rgba(57,50,173,1);
+}
+
+#feedback{
+    width: 100%;
+    padding-left: 0px;
+}
+
+#feedback h2{
+    text-align: justify;
+}
+
+body{
+  background-color: rgb(211, 211, 226);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
