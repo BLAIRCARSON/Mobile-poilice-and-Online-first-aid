@@ -1,6 +1,6 @@
 body{
     font-size: x-large;
-    background-color:white
+    background-image: url("https://wallpaperaccess.com/full/103592.jpg");
     /* color: white; */
 }
 
@@ -33,7 +33,7 @@ h2{
     top:10%;
     transform:translate(-50%);
     font-size:50px;
-    color:blue;
+    color:black;
     font-family:Comic Sans Ms;
     text-transform: uppercase;
     text-decoration: underline;
@@ -176,7 +176,7 @@ float:inline-start;
     color: whitesmoke;
   }
 #paragraph{
-    color:olive;
+    color:black;
     font-size: x-large;
 }
 
