@@ -1,27 +1,33 @@
-const submitBtn = document.querySelector('#register');
-const emailaddress =  document.querySelector('#emailaddress');
-const lastname =  document.querySelector('#lastname');
+var slideIndex = 1;
+showDivs(slideIndex);
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
 
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
 
-
-submitBtn.addEventListener('mouseover',() => {
-  if(emailaddress.value === '') {
-    emailaddress.style.border = "2px solid #D02D8B";
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
   }
-
-  if(lastname.value === '') {
-    lastname.style.border = "2px solid #D02D8B";
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-red", "");
   }
-})
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-red";
+}
+function openform(){
+  document.getElementById("myform").style.display="block";
+}
 
-
-submitBtn.addEventListener('mouseleave',() => {
-  if(emailaddress.value === '') {
-    emailaddress.style.border = "2px solid transparent";
-  }
-
-  if(lastname.value === '') {
-    lastname.style.border = "2px solid transparent";
-  }
-})
+function closeform(){
+  document.getElementById("myform").style.display="none";
+}
