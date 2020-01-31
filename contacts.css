@@ -1,0 +1,55 @@
+body{
+  text-align: center;
+  background-color:rgb(27, 31, 31);
+  color:white;
+  font-family:Sans serif;
+  font-size:small;
+}
+
+lebel{
+  display: block;
+  font-size: 14px;
+
+}
+
+#submission{
+  margin: auto;
+  background-color:black;
+  width: 45%;
+  border-radius: 6px;
+}
+
+#contact{
+  float: left;
+}
+
+#socialmedia{
+  float: right;
+}
+
+#subscribe{
+  float: inline-end;
+  scroll-padding-bottom: 150px;
+}
+
+input[type=text]{
+  width: 45%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+textarea[id=message]{
+  width: 45%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+h2{
+  color: red;
+  text-decoration: underline;
+}
+
+
